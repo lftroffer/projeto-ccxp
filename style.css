@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+
+}
+header{
+    background: #FFD900;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+
+#texto-principal{
+    background: #514988;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    color: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+
+#titulo{
+    margin-top: 15px;
+    color: #F3C61F;
+    font-size: 60px;
+}
+
+
+#dias{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#texto{
+    padding-top: 40px;
+    color: #fff;
+    font-size: 170%;   
+    padding-bottom: 60px;    
+}
+
+#sessaoVideo{
+   text-align: center;
+    
+}
+#videoArlequina{
+    padding-top: 20px;
+}
+
+#sessaoVideo h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: #e33881;
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+
+#ingressosImg{
+    text-align: justify;
+}
+
+#textoIngressos{
+    padding-left: 30px;
+    color: #F3C61F;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+}
+
+#cards{
+    text-align: center;
+}
+
+#botao{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#cardsButton{
+    padding-bottom: 30px;
+}
+
+#botao button{
+    width: 550px;
+    height: 125px;
+    border-radius: 20px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 0 auto;   
+    background-color: #514988;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #514988;
+    cursor: pointer;
+    color: #F3C61F; 
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #fff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+
+#botao-enviar{
+    background: #514988;
+    border-radius: 10px;
+    color: #fff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+
+}
+
+#inputs{
+    background-color: #FFD900;
+}
